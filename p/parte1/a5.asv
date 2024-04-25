@@ -1,0 +1,62 @@
+
+%%%Aula 5 15/03/2024
+
+addpath('lib')
+
+close all; clear
+
+%Initial State
+B = [0, 5]';
+P1 = [2, 0]';
+th = 50 * pi / 180;
+P = 0;
+
+%Change state variables
+V = 2; 
+w = 0;
+Dt = 0.2;
+total_time = 5;
+
+num_iters = total_time/Dt;
+
+allP_Odom = zeros(2, num_iters);
+allP_Tria = zeros(2, num_iters);
+
+allP_Odom(:,1) = P1;
+allP_Tria(:,1) = P1;
+
+% P1 = [    0.2571
+%     0.3064];
+alpha_i = pi - th - atan2(B(2)-P1(2), B(1)-P1(1))
+
+alpha_i2 = getbdir(B-P1,0,th)
+
+for i=2:num_iters
+    allP_Odom(:,i) = allP_Odom(:,i-1) + V * Dt * [cos(th), sin(th)]';
+
+    P = P + Dt * V;
+    gamma = pigetbdir(B-P1,P,th)
+    L2 = P * sin(alpha_i) / sin(alpha_i + gamma);
+
+    allP_Tria(:,i) = B - [L2 * cos(gamma), L2 * sin(gamma)]';
+    % allP_Tria(:, i) = P1 + [P*cos(th), P*sin(th)]';
+    pause
+end
+
+plot(B(1), B(2), 'r.', 'MarkerSize',20)
+axis([0 10 0 10])
+axis equal
+grid on
+hold on
+plot(allP_Odom(1,:), allP_Odom(2,:), 'ob')
+plot(allP_Tria(1,:), allP_Tria(2,:), 'xr', 'LineWidth',1.5)
+
+% allP_Tria
+
+% h = line([allP_Odom(1,1) allP_Odom(1, end)], [allP_Odom(2, 1) allP_Odom(2,end)]);
+% h.LineStyle = ':';
+% h.Color = 'b';
+% h.LineWidth = 1.5;
+
+
+%%%end

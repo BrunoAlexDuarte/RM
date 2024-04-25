@@ -1,0 +1,27 @@
+[35m[1mScanning dependencies of target graph_slam2d_ros[0m
+[35m[1mScanning dependencies of target pf_slam2d_ros[0m
+[35m[1mScanning dependencies of target ros2sdm[0m
+[35m[1mScanning dependencies of target loc2d_ros[0m
+[35m[1mScanning dependencies of target lidar_odometry2d_ros[0m
+[35m[1mScanning dependencies of target slam2d_ros[0m
+[  6%] [32mBuilding CXX object src/CMakeFiles/ros2sdm.dir/ros2sdm.cpp.o[0m
+[ 13%] [32mBuilding CXX object src/CMakeFiles/loc2d_ros.dir/loc2d_ros.cpp.o[0m
+[ 20%] [32mBuilding CXX object src/CMakeFiles/graph_slam2d_ros.dir/graph_slam2d_ros.cpp.o[0m
+[ 26%] [32mBuilding CXX object src/CMakeFiles/pf_slam2d_ros.dir/pf_slam2d_ros.cpp.o[0m
+[ 33%] [32mBuilding CXX object src/CMakeFiles/pf_slam2d_ros.dir/offline_replay.cpp.o[0m
+[ 40%] [32mBuilding CXX object src/CMakeFiles/lidar_odometry2d_ros.dir/lidar_odometry2d_ros.cpp.o[0m
+[ 46%] [32mBuilding CXX object src/CMakeFiles/lidar_odometry2d_ros.dir/offline_replay.cpp.o[0m
+[ 53%] [32mBuilding CXX object src/CMakeFiles/slam2d_ros.dir/slam2d_ros.cpp.o[0m
+[ 60%] [32mBuilding CXX object src/CMakeFiles/slam2d_ros.dir/offline_replay.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable /home/briato/mestradoUA/rM/p/aula9/devel/.private/iris_lama_ros/lib/iris_lama_ros/ros2sdm[0m
+[ 66%] Built target ros2sdm
+[ 73%] [32m[1mLinking CXX executable /home/briato/mestradoUA/rM/p/aula9/devel/.private/iris_lama_ros/lib/iris_lama_ros/lidar_odometry2d_ros[0m
+[ 80%] [32m[1mLinking CXX executable /home/briato/mestradoUA/rM/p/aula9/devel/.private/iris_lama_ros/lib/iris_lama_ros/slam2d_ros[0m
+[ 80%] Built target lidar_odometry2d_ros
+[ 86%] [32m[1mLinking CXX executable /home/briato/mestradoUA/rM/p/aula9/devel/.private/iris_lama_ros/lib/iris_lama_ros/pf_slam2d_ros[0m
+[ 86%] Built target slam2d_ros
+[ 93%] [32m[1mLinking CXX executable /home/briato/mestradoUA/rM/p/aula9/devel/.private/iris_lama_ros/lib/iris_lama_ros/loc2d_ros[0m
+[ 93%] Built target pf_slam2d_ros
+[ 93%] Built target loc2d_ros
+[100%] [32m[1mLinking CXX executable /home/briato/mestradoUA/rM/p/aula9/devel/.private/iris_lama_ros/lib/iris_lama_ros/graph_slam2d_ros[0m
+[100%] Built target graph_slam2d_ros

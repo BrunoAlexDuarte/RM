@@ -1,0 +1,80 @@
+[35m[1mScanning dependencies of target lz4[0m
+[35m[1mScanning dependencies of target zstd[0m
+[35m[1mScanning dependencies of target minisam[0m
+[  1%] [32mBuilding C object src/vendor/lz4/CMakeFiles/lz4.dir/lz4/lz4.c.o[0m
+[  2%] [32mBuilding C object src/vendor/zstd/CMakeFiles/zstd.dir/zstd/huf_compress.c.o[0m
+[  4%] [32mBuilding C object src/vendor/zstd/CMakeFiles/zstd.dir/zstd/debug.c.o[0m
+[  5%] [32mBuilding C object src/vendor/zstd/CMakeFiles/zstd.dir/zstd/fse_compress.c.o[0m
+[  6%] [32mBuilding C object src/vendor/zstd/CMakeFiles/zstd.dir/zstd/entropy_common.c.o[0m
+[  8%] [32mBuilding C object src/vendor/zstd/CMakeFiles/zstd.dir/zstd/fse_decompress.c.o[0m
+[  9%] [32mBuilding C object src/vendor/zstd/CMakeFiles/zstd.dir/zstd/hist.c.o[0m
+[ 11%] [32mBuilding C object src/vendor/zstd/CMakeFiles/zstd.dir/zstd/threading.c.o[0m
+[ 12%] [32mBuilding C object src/vendor/zstd/CMakeFiles/zstd.dir/zstd/pool.c.o[0m
+[ 13%] [32mBuilding C object src/vendor/zstd/CMakeFiles/zstd.dir/zstd/huf_decompress.c.o[0m
+[ 15%] [32mBuilding C object src/vendor/zstd/CMakeFiles/zstd.dir/zstd/error_private.c.o[0m
+[ 16%] [32mBuilding C object src/vendor/zstd/CMakeFiles/zstd.dir/zstd/zstd_common.c.o[0m
+[ 18%] [32mBuilding C object src/vendor/zstd/CMakeFiles/zstd.dir/zstd/zstd_compress.c.o[0m
+[ 19%] [32mBuilding C object src/vendor/zstd/CMakeFiles/zstd.dir/zstd/zstd_ddict.c.o[0m
+[ 20%] [32mBuilding C object src/vendor/zstd/CMakeFiles/zstd.dir/zstd/zstd_decompress.c.o[0m
+[ 22%] [32mBuilding C object src/vendor/zstd/CMakeFiles/zstd.dir/zstd/zstd_double_fast.c.o[0m
+[ 23%] [32mBuilding C object src/vendor/zstd/CMakeFiles/zstd.dir/zstd/zstd_fast.c.o[0m
+[ 25%] [32mBuilding C object src/vendor/zstd/CMakeFiles/zstd.dir/zstd/zstd_lazy.c.o[0m
+[ 26%] [32mBuilding C object src/vendor/zstd/CMakeFiles/zstd.dir/zstd/zstd_ldm.c.o[0m
+[ 27%] [32mBuilding C object src/vendor/zstd/CMakeFiles/zstd.dir/zstd/zstdmt_compress.c.o[0m
+[ 29%] [32mBuilding C object src/vendor/zstd/CMakeFiles/zstd.dir/zstd/zstd_opt.c.o[0m
+[ 30%] [32mBuilding CXX object src/vendor/minisam/CMakeFiles/minisam.dir/minisam/core/Factor.cpp.o[0m
+[ 31%] [32mBuilding CXX object src/vendor/minisam/CMakeFiles/minisam.dir/minisam/core/FactorGraph.cpp.o[0m
+[ 33%] [32mBuilding CXX object src/vendor/minisam/CMakeFiles/minisam.dir/minisam/core/Key.cpp.o[0m
+[ 34%] [32mBuilding CXX object src/vendor/minisam/CMakeFiles/minisam.dir/minisam/core/LossFunction.cpp.o[0m
+[ 36%] [32mBuilding CXX object src/vendor/minisam/CMakeFiles/minisam.dir/minisam/core/SchurComplement.cpp.o[0m
+[ 37%] [32mBuilding CXX object src/vendor/minisam/CMakeFiles/minisam.dir/minisam/core/VariableOrdering.cpp.o[0m
+[ 38%] [32mBuilding CXX object src/vendor/minisam/CMakeFiles/minisam.dir/minisam/core/Variables.cpp.o[0m
+[ 40%] [32mBuilding CXX object src/vendor/minisam/CMakeFiles/minisam.dir/minisam/utils/testAssertions.cpp.o[0m
+[ 41%] [32mBuilding CXX object src/vendor/minisam/CMakeFiles/minisam.dir/minisam/utils/Timer.cpp.o[0m
+[ 43%] [32mBuilding CXX object src/vendor/minisam/CMakeFiles/minisam.dir/minisam/linear/ConjugateGradient.cpp.o[0m
+[ 44%] [32mBuilding CXX object src/vendor/minisam/CMakeFiles/minisam.dir/minisam/linear/Covariance.cpp.o[0m
+[ 44%] Built target lz4
+[ 45%] [32mBuilding CXX object src/vendor/minisam/CMakeFiles/minisam.dir/minisam/linear/DenseCholesky.cpp.o[0m
+[ 47%] [32mBuilding CXX object src/vendor/minisam/CMakeFiles/minisam.dir/minisam/linear/SchurComplementDenseSolver.cpp.o[0m
+[ 47%] Built target zstd
+[ 48%] [32mBuilding CXX object src/vendor/minisam/CMakeFiles/minisam.dir/minisam/linear/SparseCholesky.cpp.o[0m
+[ 50%] [32mBuilding CXX object src/vendor/minisam/CMakeFiles/minisam.dir/minisam/linear/SquareRootCholesky.cpp.o[0m
+[ 51%] [32mBuilding CXX object src/vendor/minisam/CMakeFiles/minisam.dir/minisam/nonlinear/DoglegOptimizer.cpp.o[0m
+[ 52%] [32mBuilding CXX object src/vendor/minisam/CMakeFiles/minisam.dir/minisam/nonlinear/GaussNewtonOptimizer.cpp.o[0m
+[ 54%] [32mBuilding CXX object src/vendor/minisam/CMakeFiles/minisam.dir/minisam/nonlinear/LevenbergMarquardtOptimizer.cpp.o[0m
+[ 55%] [32mBuilding CXX object src/vendor/minisam/CMakeFiles/minisam.dir/minisam/nonlinear/linearization.cpp.o[0m
+[ 56%] [32mBuilding CXX object src/vendor/minisam/CMakeFiles/minisam.dir/minisam/nonlinear/MarginalCovariance.cpp.o[0m
+[ 58%] [32mBuilding CXX object src/vendor/minisam/CMakeFiles/minisam.dir/minisam/nonlinear/NonlinearOptimizer.cpp.o[0m
+[ 59%] [32mBuilding CXX object src/vendor/minisam/CMakeFiles/minisam.dir/minisam/nonlinear/NumericalFactor.cpp.o[0m
+[ 61%] [32mBuilding CXX object src/vendor/minisam/CMakeFiles/minisam.dir/minisam/nonlinear/SparsityPattern.cpp.o[0m
+[ 61%] Built target minisam
+[35m[1mScanning dependencies of target iris_lama[0m
+[ 62%] [32mBuilding CXX object src/CMakeFiles/iris_lama.dir/buffer_compressor.cpp.o[0m
+[ 63%] [32mBuilding CXX object src/CMakeFiles/iris_lama.dir/graph_slam2d.cpp.o[0m
+[ 65%] [32mBuilding CXX object src/CMakeFiles/iris_lama.dir/image_io.cpp.o[0m
+[ 66%] [32mBuilding CXX object src/CMakeFiles/iris_lama.dir/loc2d.cpp.o[0m
+[ 68%] [32mBuilding CXX object src/CMakeFiles/iris_lama.dir/lidar_odometry_2d.cpp.o[0m
+[ 69%] [32mBuilding CXX object src/CMakeFiles/iris_lama.dir/match_surface_2d.cpp.o[0m
+[ 70%] [32mBuilding CXX object src/CMakeFiles/iris_lama.dir/pf_slam2d.cpp.o[0m
+[ 72%] [32mBuilding CXX object src/CMakeFiles/iris_lama.dir/print.cpp.o[0m
+[ 73%] [32mBuilding CXX object src/CMakeFiles/iris_lama.dir/pose2d.cpp.o[0m
+[ 75%] [32mBuilding CXX object src/CMakeFiles/iris_lama.dir/random.cpp.o[0m
+[ 76%] [32mBuilding CXX object src/CMakeFiles/iris_lama.dir/pose3d.cpp.o[0m
+[ 77%] [32mBuilding CXX object src/CMakeFiles/iris_lama.dir/slam2d.cpp.o[0m
+[ 79%] [32mBuilding CXX object src/CMakeFiles/iris_lama.dir/thread_pool.cpp.o[0m
+[ 80%] [32mBuilding CXX object src/CMakeFiles/iris_lama.dir/simple_pgo.cpp.o[0m
+[ 81%] [32mBuilding CXX object src/CMakeFiles/iris_lama.dir/nlls/gauss_newton.cpp.o[0m
+[ 83%] [32mBuilding CXX object src/CMakeFiles/iris_lama.dir/nlls/levenberg_marquardt.cpp.o[0m
+[ 84%] [32mBuilding CXX object src/CMakeFiles/iris_lama.dir/nlls/robust_cost.cpp.o[0m
+[ 86%] [32mBuilding CXX object src/CMakeFiles/iris_lama.dir/nlls/solver.cpp.o[0m
+[ 87%] [32mBuilding CXX object src/CMakeFiles/iris_lama.dir/sdm/container.cpp.o[0m
+[ 88%] [32mBuilding CXX object src/CMakeFiles/iris_lama.dir/sdm/dynamic_distance_map.cpp.o[0m
+[ 90%] [32mBuilding CXX object src/CMakeFiles/iris_lama.dir/sdm/export.cpp.o[0m
+[ 91%] [32mBuilding CXX object src/CMakeFiles/iris_lama.dir/sdm/frequency_occupancy_map.cpp.o[0m
+[ 93%] [32mBuilding CXX object src/CMakeFiles/iris_lama.dir/sdm/map.cpp.o[0m
+[ 94%] [32mBuilding CXX object src/CMakeFiles/iris_lama.dir/sdm/marching_cubes.cpp.o[0m
+[ 95%] [32mBuilding CXX object src/CMakeFiles/iris_lama.dir/sdm/probabilistic_occupancy_map.cpp.o[0m
+[ 97%] [32mBuilding CXX object src/CMakeFiles/iris_lama.dir/sdm/simple_occupancy_map.cpp.o[0m
+[ 98%] [32mBuilding CXX object src/CMakeFiles/iris_lama.dir/sdm/truncated_signed_distance_map.cpp.o[0m
+[100%] [32m[1mLinking CXX static library libiris_lama.a[0m
+[100%] Built target iris_lama

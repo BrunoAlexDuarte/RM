@@ -1,0 +1,1 @@
+/home/briato/mestradoUA/rM/p/aula9/devel/.private/iris_lama_ros/lib/pkgconfig/iris_lama_ros.pc

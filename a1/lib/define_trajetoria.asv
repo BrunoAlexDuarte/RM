@@ -1,0 +1,23 @@
+function T = define_trajetoria(Pontos, Dt, V)
+
+%Recebe os pontos, Dt  e V e retorna T com os pontos e as orientaçoes 
+% em cada um desses pontos
+
+N = size(Pontos,1); %Numero de farois
+
+traj_x = [];
+
+for i=1:N-1
+    divs = norm(Pontos(i,:)-Pontos(i+1,:)) / (Dt * V) + 1;
+    traj_each = linspace(Pontos(i,1), Pontos(i+1, 1), divs);
+    traj_x = [traj_x, traj_each];
+end
+
+pontos = pchip(Pontos(:,1), Pontos(:, 2), traj_x);
+
+
+
+T = [traj_x', pontos'];
+
+end
+

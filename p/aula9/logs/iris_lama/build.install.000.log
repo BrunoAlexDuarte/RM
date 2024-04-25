@@ -1,0 +1,60 @@
+[ 27%] Built target zstd
+[ 29%] Built target lz4
+[ 61%] Built target minisam
+[100%] Built target iris_lama
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Installing: /home/briato/mestradoUA/rM/p/aula9/devel/include
+-- Installing: /home/briato/mestradoUA/rM/p/aula9/devel/include/lama
+-- Installing: /home/briato/mestradoUA/rM/p/aula9/devel/include/lama/pf_slam2d.h
+-- Installing: /home/briato/mestradoUA/rM/p/aula9/devel/include/lama/buffer_compressor.h
+-- Installing: /home/briato/mestradoUA/rM/p/aula9/devel/include/lama/slam2d.h
+-- Installing: /home/briato/mestradoUA/rM/p/aula9/devel/include/lama/image.h
+-- Installing: /home/briato/mestradoUA/rM/p/aula9/devel/include/lama/random.h
+-- Installing: /home/briato/mestradoUA/rM/p/aula9/devel/include/lama/image_io.h
+-- Installing: /home/briato/mestradoUA/rM/p/aula9/devel/include/lama/lie.h
+-- Installing: /home/briato/mestradoUA/rM/p/aula9/devel/include/lama/sdm
+-- Installing: /home/briato/mestradoUA/rM/p/aula9/devel/include/lama/sdm/occupancy_map.h
+-- Installing: /home/briato/mestradoUA/rM/p/aula9/devel/include/lama/sdm/marching_cubes.h
+-- Installing: /home/briato/mestradoUA/rM/p/aula9/devel/include/lama/sdm/export.h
+-- Installing: /home/briato/mestradoUA/rM/p/aula9/devel/include/lama/sdm/dynamic_distance_map.h
+-- Installing: /home/briato/mestradoUA/rM/p/aula9/devel/include/lama/sdm/map.h
+-- Installing: /home/briato/mestradoUA/rM/p/aula9/devel/include/lama/sdm/distance_map.h
+-- Installing: /home/briato/mestradoUA/rM/p/aula9/devel/include/lama/sdm/truncated_signed_distance_map.h
+-- Installing: /home/briato/mestradoUA/rM/p/aula9/devel/include/lama/sdm/probabilistic_occupancy_map.h
+-- Installing: /home/briato/mestradoUA/rM/p/aula9/devel/include/lama/sdm/container.h
+-- Installing: /home/briato/mestradoUA/rM/p/aula9/devel/include/lama/sdm/simple_occupancy_map.h
+-- Installing: /home/briato/mestradoUA/rM/p/aula9/devel/include/lama/sdm/frequency_occupancy_map.h
+-- Installing: /home/briato/mestradoUA/rM/p/aula9/devel/include/lama/loc2d.h
+-- Installing: /home/briato/mestradoUA/rM/p/aula9/devel/include/lama/pose2d.h
+-- Installing: /home/briato/mestradoUA/rM/p/aula9/devel/include/lama/simple_pgo.h
+-- Installing: /home/briato/mestradoUA/rM/p/aula9/devel/include/lama/pose3d.h
+-- Installing: /home/briato/mestradoUA/rM/p/aula9/devel/include/lama/nlls
+-- Installing: /home/briato/mestradoUA/rM/p/aula9/devel/include/lama/nlls/gauss_newton.h
+-- Installing: /home/briato/mestradoUA/rM/p/aula9/devel/include/lama/nlls/levenberg_marquardt.h
+-- Installing: /home/briato/mestradoUA/rM/p/aula9/devel/include/lama/nlls/problem.h
+-- Installing: /home/briato/mestradoUA/rM/p/aula9/devel/include/lama/nlls/robust_cost.h
+-- Installing: /home/briato/mestradoUA/rM/p/aula9/devel/include/lama/nlls/solver.h
+-- Installing: /home/briato/mestradoUA/rM/p/aula9/devel/include/lama/nlls/strategy.h
+-- Installing: /home/briato/mestradoUA/rM/p/aula9/devel/include/lama/lidar_odometry_2d.h
+-- Installing: /home/briato/mestradoUA/rM/p/aula9/devel/include/lama/time.h
+-- Installing: /home/briato/mestradoUA/rM/p/aula9/devel/include/lama/aabb.h
+-- Installing: /home/briato/mestradoUA/rM/p/aula9/devel/include/lama/sophus
+-- Installing: /home/briato/mestradoUA/rM/p/aula9/devel/include/lama/sophus/so3.hpp
+-- Installing: /home/briato/mestradoUA/rM/p/aula9/devel/include/lama/sophus/se2.hpp
+-- Installing: /home/briato/mestradoUA/rM/p/aula9/devel/include/lama/sophus/sophus.hpp
+-- Installing: /home/briato/mestradoUA/rM/p/aula9/devel/include/lama/sophus/se3.hpp
+-- Installing: /home/briato/mestradoUA/rM/p/aula9/devel/include/lama/sophus/so2.hpp
+-- Installing: /home/briato/mestradoUA/rM/p/aula9/devel/include/lama/thread_pool.h
+-- Installing: /home/briato/mestradoUA/rM/p/aula9/devel/include/lama/match_surface_2d.h
+-- Installing: /home/briato/mestradoUA/rM/p/aula9/devel/include/lama/graph_slam2d.h
+-- Installing: /home/briato/mestradoUA/rM/p/aula9/devel/include/lama/timer.h
+-- Installing: /home/briato/mestradoUA/rM/p/aula9/devel/include/lama/cow_ptr.h
+-- Installing: /home/briato/mestradoUA/rM/p/aula9/devel/include/lama/types.h
+-- Installing: /home/briato/mestradoUA/rM/p/aula9/devel/include/lama/print.h
+-- Installing: /home/briato/mestradoUA/rM/p/aula9/devel/lib/iris_lama/cmake/iris_lamaTargets.cmake
+-- Installing: /home/briato/mestradoUA/rM/p/aula9/devel/lib/iris_lama/cmake/iris_lamaTargets-noconfig.cmake
+-- Installing: /home/briato/mestradoUA/rM/p/aula9/devel/lib/iris_lama/cmake/iris_lamaConfig.cmake
+-- Installing: /home/briato/mestradoUA/rM/p/aula9/devel/lib/iris_lama/cmake/iris_lamaConfigVersion.cmake
+-- Installing: /home/briato/mestradoUA/rM/p/aula9/devel/share/iris_lama/package.xml
+-- Installing: /home/briato/mestradoUA/rM/p/aula9/devel/lib/libiris_lama.a

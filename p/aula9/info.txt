@@ -1,0 +1,8 @@
+
+para corrigir o erro de nao ter o ficheiro launch
+
+	sudo apt install ros-noetic-turtlebot3-gazebo
+	rosrun robot_state_publisher robot_state_publisher
+	rosrun teleop
+	rosrun gmapping slam-mapping
+

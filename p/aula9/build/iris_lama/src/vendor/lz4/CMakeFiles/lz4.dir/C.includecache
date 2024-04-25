@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/briato/mestradoUA/rM/p/aula9/src/iris_lama/vendor/lz4/lz4/lz4.c
+lz4.h
+/home/briato/mestradoUA/rM/p/aula9/src/iris_lama/vendor/lz4/lz4/lz4.h
+intrin.h
+-
+stdlib.h
+-
+string.h
+-
+stdint.h
+-
+assert.h
+-
+stdio.h
+-
+
+/home/briato/mestradoUA/rM/p/aula9/src/iris_lama/vendor/lz4/lz4/lz4.h
+stddef.h
+-
+stdint.h
+-
+

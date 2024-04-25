@@ -1,0 +1,9 @@
+Symlinking /home/briato/mestradoUA/rM/p/aula9/devel/share/iris_lama_ros/cmake/iris_lama_rosConfig.cmake
+Symlinking /home/briato/mestradoUA/rM/p/aula9/devel/share/iris_lama_ros/cmake/iris_lama_rosConfig-version.cmake
+Symlinking /home/briato/mestradoUA/rM/p/aula9/devel/lib/pkgconfig/iris_lama_ros.pc
+Symlinking /home/briato/mestradoUA/rM/p/aula9/devel/lib/iris_lama_ros/lidar_odometry2d_ros
+Symlinking /home/briato/mestradoUA/rM/p/aula9/devel/lib/iris_lama_ros/ros2sdm
+Symlinking /home/briato/mestradoUA/rM/p/aula9/devel/lib/iris_lama_ros/loc2d_ros
+Symlinking /home/briato/mestradoUA/rM/p/aula9/devel/lib/iris_lama_ros/slam2d_ros
+Symlinking /home/briato/mestradoUA/rM/p/aula9/devel/lib/iris_lama_ros/pf_slam2d_ros
+Symlinking /home/briato/mestradoUA/rM/p/aula9/devel/lib/iris_lama_ros/graph_slam2d_ros

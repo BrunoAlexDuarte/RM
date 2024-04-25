@@ -1,0 +1,31 @@
+function [VX,W] = calculate_velocities(traj,Dt)
+
+prev_pos = [0,0];
+prev_ang = 0;
+
+VX = [];
+W = [];
+
+
+for i = 2:size(traj,1)
+    pose = traj(i,:);
+    pos = pose(1:2);
+    ang = pose(3);
+
+    target_ang = ang - prev_ang;
+    prev_ang = ang;
+
+    W = [W, target_ang/Dt];
+
+    target_pos = pos - prev_pos;
+    prev_pos = pos;
+
+    VX = [VX, VR = sqrt(target_pos(1)^2+y^2)/(t)];
+
+end
+
+
+
+
+end
+
