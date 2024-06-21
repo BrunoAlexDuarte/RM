@@ -37,8 +37,9 @@ Pt1_t= Jfx*P_t*Jfx'+Jfw*Q*Jfw';                                          %uncert
 z_all = [
             obs_t1(2:3)'
             obs_t1(5:6)'
-            ]; % two observations as a column vector
+            ] % two observations as a column vector
 %
+
 % get the landmark positions
 landmark1=landmarkxym(obs_t1(1),2:3);
 landmark2=landmarkxym(obs_t1(4),2:3);
@@ -62,9 +63,19 @@ Jh = [Jh1
       Jh2
       ];
 
+% Jh
+% Pt1_t
+% R
+% AAA = Jh*Pt1_t*Jh'
+% size(AAA)
+% size(R)
+R = eye(4)
+% size(R)
+
 S = Jh*Pt1_t*Jh'+R;
 K = Pt1_t*Jh'*inv(S);
-
+AAA = 1
+pause
 %result
 xstatet1_t1 = xstatet1_t'+K*innov;
 Pt1_t1      = Pt1_t - K*Jh*Pt1_t;

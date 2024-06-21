@@ -9,7 +9,7 @@ Pontos = [0 , 0;
 N = size(Pontos,1); %Numero de farois
 
 traj_x = 0;
-
+Dt*V
 for i=1:N-1
     divs = norm(Pontos(i,:)-Pontos(i+1,:)) / (Dt * V) + 1;
     traj_each = linspace(Pontos(i,1), Pontos(i+1, 1), divs);
@@ -22,7 +22,7 @@ N = size(traj_y, 2);
 Angs = zeros(1,N);
 
 for i = 2:N
-    Angs(i) = atan2(traj_y(i)-traj_y(i-1), traj_x(i)-traj_x(i-1)); 
+    Angs(i-1) = atan2(traj_y(i)-traj_y(i-1), traj_x(i)-traj_x(i-1)); 
 end
 
 T = [traj_x', traj_y' ,Angs'];
